@@ -12,7 +12,7 @@ const Mint = () => {
           Creator Mints Collectible Purchase Demo Page
         </h1>
         <p className="text-lg lg:text-xl text-center lg:text-left max-w-lg mt-4">
-          On this page, users can mint (purchase) a creator's digital
+          On this page, users can mint (purchase) a creator&rsquo;s digital
           collectible. There will be a set supply of digital pieces of art which
           will be all unique pieces of art related to the creator. These
           collectibles are securely backed by blockchain technology, ensuring

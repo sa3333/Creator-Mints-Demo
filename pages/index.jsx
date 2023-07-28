@@ -43,8 +43,8 @@ export default function Home() {
         <p className="text-lg lg:text-xl text-center lg:text-left max-w-lg mt-4">
           This page is accessible only to users who hold the exclusive Creator
           Mints Collectibles. Creators can customize this private page with
-          unique content, offers, giveaways, videos, and more. It's an exclusive
-          space for the Collectibles' holders to engage with the creator's
+          unique content, offers, giveaways, videos, and more. It&rsquo;s an exclusive
+          space for the Collectibles&rsquo; holders to engage with the creator&rsquo;s
           community and access special perks.
         </p>
         {/* Adjust the padding around the "Connect Wallet" button for larger screens */}
@@ -83,7 +83,7 @@ export async function getServerSideProps(context) {
 
   // If they don't have an NFT, redirect them to the login page
   if (!hasNft) {
-    console.log("User", user.address, "doesn't have an NFT! Redirecting...");
+    console.log("User", user.address, "does not have an NFT! Redirecting...");
     return {
       redirect: {
         destination: "/login",

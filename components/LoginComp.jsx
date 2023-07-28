@@ -53,9 +53,9 @@ export default function Login() {
     {/* Adjust the maximum width of the text container for larger screens */}
     <h1 className="text-4xl lg:text-6xl text-center lg:text-left">Creator Mints Holder Only Demo Page</h1>
     <p className="text-lg lg:text-xl text-center lg:text-left max-w-lg mt-4">
-      After a user purchases a digital collectible from Creator Mints, they will get access to the creator's private
+      After a user purchases a digital collectible from Creator Mints, they will get access to the creator&rsquo;s private
       page that will only be accessible by the holders of the Collectables. This page can fully be customized to the
-      creator's liking including holder-only videos, merchandise, and more.
+      creator&rsquo;s liking including holder-only videos, merchandise, and more.
     </p>
     {/* Adjust the padding around the "Connect Wallet" button for larger screens */}
     <ConnectWallet 
