@@ -34,7 +34,7 @@ export default function Login() {
     if (!user || !user.address) return;
     if (!nfts || nfts.length <= minimumBalance)
       return console.log("User logged in but NFT not found");
-    router.push("../pages/index.jsx");
+    router.push("./");
   }, [user, nfts]);
   
   return (
