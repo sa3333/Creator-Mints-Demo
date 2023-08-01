@@ -10,8 +10,8 @@ const NotFoundPage = () => {
         The page you are looking for does not exist or you do not have access to it.
       </p>
       {/* Use regular anchor tag for external links */}
-      <a href="/" className="text-blue-500 underline">
-        Go back to the homepage
+      <a >
+        Go back to the <link className="text-blue-500 underline" href='/'>homepage</link>
       </a>
       {/* Use Link for internal links that require client-side routing */}
       {/* <Link href="/">
